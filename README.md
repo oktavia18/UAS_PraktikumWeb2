@@ -420,12 +420,52 @@ Menambahkan dropdown kategori dengan nilai yang sudah terpilih sesuai data artik
 ![alt text](Gambar/image-7.png)
 
 
-## 💻 Panduan Awal Menjalankan Web Menggunakan Laragon
+## 🧪 7. Testing Fitur
 
-### 1. Menyalakan Laragon
-- Buka aplikasi **Laragon**
-- Pastikan **Apache** dan **MySQL** sudah berjalan
+Berikut adalah hasil pengujian dari fitur-fitur utama dalam aplikasi:
 
-### 2. Menempatkan Folder Proyek
-- Salin folder project CodeIgniter 4 ke direktori:
-=======
+### ✅ 1. Menampilkan Daftar Artikel Beserta Kategori
+Menampilkan semua artikel yang sudah dibuat, lengkap dengan informasi kategori masing-masing.
+
+🖼️ **Tampilan Daftar Artikel:**
+
+![Daftar Artikel](image/daftar_artikel_beserta_kategori.png)
+
+---
+
+### ✅ 2. Menambah Artikel Baru dengan Kategori
+Fitur untuk menambahkan artikel baru dan memilih kategori yang sesuai.
+
+🖼️ **Tampilan Form Tambah Artikel:**
+
+![Tambah Artikel](image/tambah_artikel.png)
+
+---
+
+### ✅ 3. Mengedit Artikel dan Ubah Kategori
+Fitur untuk memperbarui isi artikel sekaligus mengganti kategori jika diperlukan.
+
+🖼️ **Tampilan Form Edit Artikel:**
+
+![Edit Artikel](image/edit_kategori.png)
+
+🖼️ **Tampilan Setelah Edit Artikel:**
+
+![Setelah Edit](image/setelah_edit_kategori.png)
+
+---
+
+### ✅ 4. Menghapus Artikel
+Fitur untuk menghapus artikel yang sudah tidak diperlukan.
+
+🖼️ **Tampilan Konfirmasi/Hapus Artikel:**
+
+![Hapus Artikel](image/hapus_artikel.png)
+
+🖼️ **Tampilan Setelah Artikel Dihapus:**
+
+![Setelah Hapus](image/setelah_hapus_artikel.png)
+
+---
+
+
