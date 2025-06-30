@@ -45,7 +45,7 @@ CREATE TABLE kategori (
 ```
 
 **Screenshot:**
-![alt text](Gambar/image.png)
+![table_kategori](https://github.com/user-attachments/assets/48ed31e0-2837-4113-9205-9d28fe4ec0cd)
 
 ### 3. Modifikasi Tabel Artikel
 
@@ -59,9 +59,6 @@ ADD COLUMN id_kategori INT(11),
 ADD CONSTRAINT fk_kategori_artikel
 FOREIGN KEY (id_kategori) REFERENCES kategori(id_kategori);
 ```
-
-**Screenshot:**
-![alt text](Gambar/image-1.png)
 
 ### 4. Membuat Model `KategoriModel`
 
@@ -83,8 +80,6 @@ class KategoriModel extends Model
 }
 ```
 
-**Screenshot:**
-![alt text](Gambar/image-2.png)
 
 ### 5. Modifikasi Model Artikel
 
@@ -115,8 +110,6 @@ class ArtikelModel extends Model
 }
 ```
 
-**Screenshot:**
-![alt text](Gambar/image-3.png)
 
 ### 6. Modifikasi Controller Artikel.php
 
@@ -252,8 +245,6 @@ class Artikel extends BaseController
 }
 ```
 
-**Screenshot:**
-![alt text](Gambar/image-4.png)
 
 ### 7. Modifikasi Tampilan (View)
 
@@ -348,8 +339,7 @@ Edit
 <?= $pager->only(['q', 'kategori_id'])->links(); ?>
 <?= $this->include('template/admin_footer'); ?>
 ```
-**Screenshot:**
-![alt text](Gambar/image-5.png)
+
 
 #### c. form_add.php (Form Tambah Artikel)
 
@@ -382,8 +372,6 @@ Menambahkan dropdown untuk memilih kategori saat menambah artikel baru.
 <?= $this->include('template/admin_footer'); ?>
 ```
 
-**Screenshot:**
-![alt text](Gambar/image-6.png)
 
 #### d. form_edit.php (Form Edit Artikel)
 
@@ -416,8 +404,6 @@ Menambahkan dropdown kategori dengan nilai yang sudah terpilih sesuai data artik
 <?= $this->include('template/admin_footer'); ?>
 ```
 
-**Screenshot:**
-![alt text](Gambar/image-7.png)
 
 
 ## 🧪 7. Testing Fitur
