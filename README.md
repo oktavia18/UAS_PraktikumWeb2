@@ -465,25 +465,16 @@ Praktikum 7 ini telah berhasil mengimplementasikan relasi **One-to-Many** antara
 
 - **Relasi Tabel One-to-Many**  
   Menghubungkan artikel ke kategori menggunakan foreign key `id_kategori`.
-
 - **Join Tabel dengan Query Builder**  
   Data artikel ditampilkan bersama nama kategori melalui `JOIN` antar tabel.
-
 - **Filter Berdasarkan Kategori**  
   Dropdown filter di halaman admin untuk menampilkan artikel per kategori.
-
-- **Pencarian Artikel (Search)**  
-  Form pencarian berdasarkan judul artikel menggunakan metode `like()`.
-
 - **Tambah Artikel**  
   Form tambah artikel lengkap dengan dropdown kategori.
-
 - **Edit Artikel**  
   Form edit artikel yang otomatis menampilkan kategori yang sudah dipilih.
-
 - **Hapus Artikel**  
   Konfirmasi hapus dan penghapusan data artikel dari database.
-
 - **Pagination & Tabel Interaktif**  
   Data ditampilkan dalam tabel yang dapat dipaginasi untuk navigasi yang lebih mudah.
 
