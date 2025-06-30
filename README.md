@@ -427,9 +427,9 @@ Berikut adalah hasil pengujian dari fitur-fitur utama dalam aplikasi:
 ### ✅ 1. Menampilkan Daftar Artikel Beserta Kategori
 Menampilkan semua artikel yang sudah dibuat, lengkap dengan informasi kategori masing-masing.
 
-🖼️ **Tampilan Daftar Artikel:**
+🖼️ **Tampilan Daftar Artikel :**
 
-![Daftar Artikel](image/daftar_artikel_beserta_kategori.png)
+![Screenshot 2025-06-30 200244](https://github.com/user-attachments/assets/370fa639-c402-4216-bc87-89cf3331a576)
 
 ---
 
@@ -438,7 +438,7 @@ Fitur untuk menambahkan artikel baru dan memilih kategori yang sesuai.
 
 🖼️ **Tampilan Form Tambah Artikel:**
 
-![Tambah Artikel](image/tambah_artikel.png)
+![Screenshot 2025-06-30 200806](https://github.com/user-attachments/assets/9427c459-a7ab-40cd-b36d-f5835fa981a4)
 
 ---
 
@@ -447,11 +447,12 @@ Fitur untuk memperbarui isi artikel sekaligus mengganti kategori jika diperlukan
 
 🖼️ **Tampilan Form Edit Artikel:**
 
-![Edit Artikel](image/edit_kategori.png)
+![Screenshot 2025-06-30 201032](https://github.com/user-attachments/assets/f566376a-8b62-43d5-b61e-4058d3c38f17)
+
 
 🖼️ **Tampilan Setelah Edit Artikel:**
 
-![Setelah Edit](image/setelah_edit_kategori.png)
+![Screenshot 2025-06-30 201728](https://github.com/user-attachments/assets/b21bf1c6-3f4e-4eb8-994d-2bfea47acd8f)
 
 ---
 
@@ -460,12 +461,11 @@ Fitur untuk menghapus artikel yang sudah tidak diperlukan.
 
 🖼️ **Tampilan Konfirmasi/Hapus Artikel:**
 
-![Hapus Artikel](image/hapus_artikel.png)
+![Screenshot 2025-06-30 201918](https://github.com/user-attachments/assets/f3cc9c99-409c-489a-9e96-fd21f1e623bd)
+
 
 🖼️ **Tampilan Setelah Artikel Dihapus:**
 
-![Setelah Hapus](image/setelah_hapus_artikel.png)
+![Screenshot 2025-06-30 202023](https://github.com/user-attachments/assets/d3f4a478-3a5e-492c-897c-4bec91c2d0f8)
 
 ---
-
-
