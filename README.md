@@ -455,3 +455,70 @@ Fitur untuk menghapus artikel yang sudah tidak diperlukan.
 ![Screenshot 2025-06-30 202023](https://github.com/user-attachments/assets/d3f4a478-3a5e-492c-897c-4bec91c2d0f8)
 
 ---
+## ✅ Kesimpulan
+
+Praktikum 7 ini telah berhasil mengimplementasikan relasi **One-to-Many** antara tabel `artikel` dan `kategori` dalam aplikasi berbasis **CodeIgniter 4**. Seluruh proses dilakukan secara terstruktur, mulai dari pembuatan tabel, pemrograman model, controller, hingga view.
+
+---
+
+## 🔧 Fitur-Fitur yang Berhasil Diterapkan
+
+- **Relasi Tabel One-to-Many**  
+  Menghubungkan artikel ke kategori menggunakan foreign key `id_kategori`.
+
+- **Join Tabel dengan Query Builder**  
+  Data artikel ditampilkan bersama nama kategori melalui `JOIN` antar tabel.
+
+- **Filter Berdasarkan Kategori**  
+  Dropdown filter di halaman admin untuk menampilkan artikel per kategori.
+
+- **Pencarian Artikel (Search)**  
+  Form pencarian berdasarkan judul artikel menggunakan metode `like()`.
+
+- **Tambah Artikel**  
+  Form tambah artikel lengkap dengan dropdown kategori.
+
+- **Edit Artikel**  
+  Form edit artikel yang otomatis menampilkan kategori yang sudah dipilih.
+
+- **Hapus Artikel**  
+  Konfirmasi hapus dan penghapusan data artikel dari database.
+
+- **Pagination & Tabel Interaktif**  
+  Data ditampilkan dalam tabel yang dapat dipaginasi untuk navigasi yang lebih mudah.
+
+---
+
+## 🧰 Teknologi & Tools yang Digunakan
+
+| Komponen        | Teknologi / Tools                      |
+|-----------------|-----------------------------------------|
+| **Framework**   | CodeIgniter 4 (PHP MVC Framework)       |
+| **Local Server**| Laragon (Apache + MySQL)                |
+| **Database**    | MySQL                                   |
+| **UI Framework**| Bootstrap 5                             |
+| **View Engine** | CodeIgniter View (`.php`)               |
+| **Editor**      | Visual Studio Code                      |
+| **Debugging**   | CI Debug Toolbar                        |
+| **Front-End**   | DataTables (untuk tabel admin)          |
+
+---
+
+## 🎓 Manfaat yang Diperoleh
+
+- Memahami konsep **relasi antar tabel** dan cara mengimplementasikannya langsung.
+- Belajar menggunakan **Query Builder CodeIgniter** untuk `JOIN`, `FILTER`, dan `PAGINATE`.
+- Menyusun kode berdasarkan konsep **MVC (Model–View–Controller)**.
+- Meningkatkan keterampilan pengolahan **data dinamis** di halaman web.
+- Mempersiapkan fondasi untuk membangun aplikasi **CRUD skala menengah hingga besar**.
+
+---
+
+## 🙌 Penutup
+
+Praktikum ini memberikan pengalaman langsung dalam membangun fitur yang umum digunakan dalam aplikasi web, terutama dalam pengelolaan data relasional. Dengan menggabungkan konsep **database**, **backend (PHP/CI4)**, dan antarmuka pengguna yang rapi, aplikasi yang dibangun menjadi lebih fungsional dan mudah dikembangkan.
+
+---
+
+> Terima kasih telah membaca dokumentasi ini.  
+> Semoga bermanfaat dan menginspirasi pengembangan proyek selanjutnya. 🚀
